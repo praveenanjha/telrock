@@ -1,0 +1,66 @@
+[DEBUG] 2018-04-29 15:59:00.647 org.hibernate.ejb.Ejb3Configuration.<clinit>(Ejb3Configuration.java:143) - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+[INFO ] 2018-04-29 15:59:03.917 org.hibernate.tool.hbm2ddl.DatabaseMetadata.getTableMetadata(DatabaseMetadata.java:120) - HHH000262: Table not found: Department
+[INFO ] 2018-04-29 15:59:03.922 org.hibernate.tool.hbm2ddl.DatabaseMetadata.getTableMetadata(DatabaseMetadata.java:120) - HHH000262: Table not found: Person
+[INFO ] 2018-04-29 15:59:03.927 org.hibernate.tool.hbm2ddl.DatabaseMetadata.getTableMetadata(DatabaseMetadata.java:120) - HHH000262: Table not found: Department
+[INFO ] 2018-04-29 15:59:03.932 org.hibernate.tool.hbm2ddl.DatabaseMetadata.getTableMetadata(DatabaseMetadata.java:120) - HHH000262: Table not found: Person
+[INFO ] 2018-04-29 15:59:05.640 com.telrock.dao.DepartmentServiceImpl.findDepartmentsInArea(DepartmentServiceImpl.java:85) - Retrieving all departments in area  
+[ERROR] 2018-04-29 15:59:05.644 com.telrock.dao.DepartmentServiceImpl.findDepartmentsInArea(DepartmentServiceImpl.java:90) - Supplied area [ ] must be populated
+[INFO ] 2018-04-29 15:59:05.807 com.telrock.dao.DepartmentServiceImpl.getOrCreateDepartment(DepartmentServiceImpl.java:35) - Retrieving department TestDepartment1 in area Area1
+[DEBUG] 2018-04-29 15:59:05.924 com.telrock.dao.DepartmentServiceImpl.getOrCreateDepartment(DepartmentServiceImpl.java:59) - Retrieved Department[id=9,name=TestDepartment1,area=Area1]
+[INFO ] 2018-04-29 15:59:05.992 com.telrock.dao.DepartmentServiceImpl.findDepartmentsInArea(DepartmentServiceImpl.java:85) - Retrieving all departments in area null
+[ERROR] 2018-04-29 15:59:05.994 com.telrock.dao.DepartmentServiceImpl.findDepartmentsInArea(DepartmentServiceImpl.java:90) - Supplied area [null] must be populated
+[INFO ] 2018-04-29 15:59:06.093 com.telrock.dao.DepartmentServiceImpl.getOrCreateDepartment(DepartmentServiceImpl.java:35) - Retrieving department MockNewDepartmentName in area MockNewDepartmentArea
+[DEBUG] 2018-04-29 15:59:06.104 com.telrock.dao.DepartmentServiceImpl.getOrCreateDepartment(DepartmentServiceImpl.java:65) - Creating Department[id=<null>,name=MockNewDepartmentName,area=MockNewDepartmentArea]
+[INFO ] 2018-04-29 15:59:06.256 com.telrock.dao.DepartmentServiceImpl.getOrCreateDepartment(DepartmentServiceImpl.java:35) - Retrieving department   in area  
+[ERROR] 2018-04-29 15:59:06.258 com.telrock.dao.DepartmentServiceImpl.getOrCreateDepartment(DepartmentServiceImpl.java:40) - Department fields must be populated. Department[id=<null>,name= ,area= ]
+[INFO ] 2018-04-29 15:59:06.373 com.telrock.dao.DepartmentServiceImpl.findDepartmentsInArea(DepartmentServiceImpl.java:85) - Retrieving all departments in area AreaWithoutDepartments
+[INFO ] 2018-04-29 15:59:06.413 com.telrock.dao.DepartmentServiceImpl.findDepartmentsInArea(DepartmentServiceImpl.java:85) - Retrieving all departments in area Area3
+[INFO ] 2018-04-29 15:59:06.456 com.telrock.dao.DepartmentServiceImpl.findDepartmentsInArea(DepartmentServiceImpl.java:85) - Retrieving all departments in area Area1
+[INFO ] 2018-04-29 15:59:06.501 com.telrock.dao.DepartmentServiceImpl.getOrCreateDepartment(DepartmentServiceImpl.java:35) - Retrieving department null in area null
+[ERROR] 2018-04-29 15:59:06.503 com.telrock.dao.DepartmentServiceImpl.getOrCreateDepartment(DepartmentServiceImpl.java:40) - Department fields must be populated. Department[id=<null>,name=<null>,area=<null>]
+[INFO ] 2018-04-29 15:59:06.532 com.telrock.dao.DepartmentServiceImpl.getOrCreateDepartment(DepartmentServiceImpl.java:35) - Retrieving department MockDepartmentName in area null
+[ERROR] 2018-04-29 15:59:06.533 com.telrock.dao.DepartmentServiceImpl.getOrCreateDepartment(DepartmentServiceImpl.java:40) - Department fields must be populated. Department[id=<null>,name=MockDepartmentName,area=<null>]
+[INFO ] 2018-04-29 15:59:06.569 com.telrock.dao.DepartmentServiceImpl.getOrCreateDepartment(DepartmentServiceImpl.java:35) - Retrieving department null in area MockDepartmentArea
+[ERROR] 2018-04-29 15:59:06.571 com.telrock.dao.DepartmentServiceImpl.getOrCreateDepartment(DepartmentServiceImpl.java:40) - Department fields must be populated. Department[id=<null>,name=<null>,area=MockDepartmentArea]
+[INFO ] 2018-04-29 15:59:06.626 com.telrock.dao.DepartmentServiceImpl.findDepartmentsInArea(DepartmentServiceImpl.java:85) - Retrieving all departments in area 
+[ERROR] 2018-04-29 15:59:06.628 com.telrock.dao.DepartmentServiceImpl.findDepartmentsInArea(DepartmentServiceImpl.java:90) - Supplied area [] must be populated
+[INFO ] 2018-04-29 15:59:06.659 com.telrock.dao.DepartmentServiceImpl.getDefaultDepartment(DepartmentServiceImpl.java:74) - Retrieving default department
+[INFO ] 2018-04-29 15:59:06.769 com.telrock.dao.DepartmentServiceImpl.getOrCreateDepartment(DepartmentServiceImpl.java:35) - Retrieving department  in area 
+[ERROR] 2018-04-29 15:59:06.771 com.telrock.dao.DepartmentServiceImpl.getOrCreateDepartment(DepartmentServiceImpl.java:40) - Department fields must be populated. Department[id=<null>,name=,area=]
+[INFO ] 2018-04-29 15:59:06.863 com.telrock.dao.DepartmentServiceImpl.getOrCreateDepartment(DepartmentServiceImpl.java:35) - Retrieving department MockDepartmentName in area 
+[ERROR] 2018-04-29 15:59:06.865 com.telrock.dao.DepartmentServiceImpl.getOrCreateDepartment(DepartmentServiceImpl.java:40) - Department fields must be populated. Department[id=<null>,name=MockDepartmentName,area=]
+[INFO ] 2018-04-29 15:59:06.902 com.telrock.dao.DepartmentServiceImpl.getOrCreateDepartment(DepartmentServiceImpl.java:35) - Retrieving department  in area MockDepartmentArea
+[ERROR] 2018-04-29 15:59:06.904 com.telrock.dao.DepartmentServiceImpl.getOrCreateDepartment(DepartmentServiceImpl.java:40) - Department fields must be populated. Department[id=<null>,name=,area=MockDepartmentArea]
+[INFO ] 2018-04-29 15:59:07.105 com.telrock.dao.PersonServiceImpl.save(PersonServiceImpl.java:33) - Saving Person[id=<null>,name=MyName,surname= ,department=<null>]
+[ERROR] 2018-04-29 15:59:07.107 com.telrock.dao.PersonServiceImpl.save(PersonServiceImpl.java:38) - Person must be supplied with valid name and surname. Person[id=<null>,name=MyName,surname= ,department=<null>]
+[INFO ] 2018-04-29 15:59:07.117 com.telrock.dao.PersonServiceImpl.save(PersonServiceImpl.java:33) - Saving Person[id=<null>,name=,surname=,department=<null>]
+[ERROR] 2018-04-29 15:59:07.119 com.telrock.dao.PersonServiceImpl.save(PersonServiceImpl.java:38) - Person must be supplied with valid name and surname. Person[id=<null>,name=,surname=,department=<null>]
+[INFO ] 2018-04-29 15:59:07.143 com.telrock.dao.PersonServiceImpl.save(PersonServiceImpl.java:33) - Saving Person[id=<null>,name=MyName,surname=,department=<null>]
+[ERROR] 2018-04-29 15:59:07.145 com.telrock.dao.PersonServiceImpl.save(PersonServiceImpl.java:38) - Person must be supplied with valid name and surname. Person[id=<null>,name=MyName,surname=,department=<null>]
+[INFO ] 2018-04-29 15:59:07.154 com.telrock.dao.PersonServiceImpl.save(PersonServiceImpl.java:33) - Saving Person[id=<null>,name=MyName,surname=<null>,department=<null>]
+[ERROR] 2018-04-29 15:59:07.155 com.telrock.dao.PersonServiceImpl.save(PersonServiceImpl.java:38) - Person must be supplied with valid name and surname. Person[id=<null>,name=MyName,surname=<null>,department=<null>]
+[INFO ] 2018-04-29 15:59:07.164 com.telrock.dao.PersonServiceImpl.save(PersonServiceImpl.java:33) - Saving Person[id=<null>,name=the name,surname=MySurname,department=<null>]
+[INFO ] 2018-04-29 15:59:07.180 com.telrock.dao.PersonServiceImpl.save(PersonServiceImpl.java:33) - Saving Person[id=<null>,name=,surname=MySurname,department=<null>]
+[ERROR] 2018-04-29 15:59:07.181 com.telrock.dao.PersonServiceImpl.save(PersonServiceImpl.java:38) - Person must be supplied with valid name and surname. Person[id=<null>,name=,surname=MySurname,department=<null>]
+[INFO ] 2018-04-29 15:59:07.191 com.telrock.dao.PersonServiceImpl.setDefaultDepartment(PersonServiceImpl.java:59) - Setting default department for null
+[ERROR] 2018-04-29 15:59:07.198 com.telrock.dao.PersonServiceImpl.setDefaultDepartment(PersonServiceImpl.java:63) - Supplied Person is null
+[INFO ] 2018-04-29 15:59:07.224 com.telrock.dao.PersonServiceImpl.save(PersonServiceImpl.java:33) - Saving Person[id=<null>,name=the name,surname=MySurname,department=Department[id=<null>,name=DeptName,area=DeptArea]]
+[DEBUG] 2018-04-29 15:59:07.225 com.telrock.dao.PersonServiceImpl.save(PersonServiceImpl.java:45) - Persisting department for Person[id=<null>,name=the name,surname=MySurname,department=Department[id=<null>,name=DeptName,area=DeptArea]]
+[INFO ] 2018-04-29 15:59:07.229 com.telrock.dao.DepartmentServiceImpl.getOrCreateDepartment(DepartmentServiceImpl.java:35) - Retrieving department DeptName in area DeptArea
+[DEBUG] 2018-04-29 15:59:07.235 com.telrock.dao.DepartmentServiceImpl.getOrCreateDepartment(DepartmentServiceImpl.java:65) - Creating Department[id=<null>,name=DeptName,area=DeptArea]
+[INFO ] 2018-04-29 15:59:07.303 com.telrock.dao.PersonServiceImpl.setDefaultDepartment(PersonServiceImpl.java:59) - Setting default department for Person[id=<null>,name=MyName,surname=MySurname,department=<null>]
+[INFO ] 2018-04-29 15:59:07.305 com.telrock.dao.DepartmentServiceImpl.getDefaultDepartment(DepartmentServiceImpl.java:74) - Retrieving default department
+[INFO ] 2018-04-29 15:59:07.323 com.telrock.dao.PersonServiceImpl.save(PersonServiceImpl.java:33) - Saving Person[id=<null>,name= ,surname=MySurname,department=<null>]
+[ERROR] 2018-04-29 15:59:07.325 com.telrock.dao.PersonServiceImpl.save(PersonServiceImpl.java:38) - Person must be supplied with valid name and surname. Person[id=<null>,name= ,surname=MySurname,department=<null>]
+[INFO ] 2018-04-29 15:59:07.339 com.telrock.dao.PersonServiceImpl.save(PersonServiceImpl.java:33) - Saving Person[id=<null>,name=<null>,surname=MySurname,department=<null>]
+[ERROR] 2018-04-29 15:59:07.341 com.telrock.dao.PersonServiceImpl.save(PersonServiceImpl.java:38) - Person must be supplied with valid name and surname. Person[id=<null>,name=<null>,surname=MySurname,department=<null>]
+[INFO ] 2018-04-29 15:59:07.358 com.telrock.dao.PersonServiceImpl.setDefaultDepartment(PersonServiceImpl.java:59) - Setting default department for Person[id=<null>,name=MyName,surname=MySurname,department=Department[id=<null>,name=<null>,area=<null>]]
+[ERROR] 2018-04-29 15:59:07.360 com.telrock.dao.PersonServiceImpl.setDefaultDepartment(PersonServiceImpl.java:69) - Department has already been set for person: Person[id=<null>,name=MyName,surname=MySurname,department=Department[id=<null>,name=<null>,area=<null>]]
+[INFO ] 2018-04-29 15:59:07.399 com.telrock.dao.PersonServiceImpl.save(PersonServiceImpl.java:33) - Saving Person[id=<null>,name= ,surname= ,department=<null>]
+[ERROR] 2018-04-29 15:59:07.401 com.telrock.dao.PersonServiceImpl.save(PersonServiceImpl.java:38) - Person must be supplied with valid name and surname. Person[id=<null>,name= ,surname= ,department=<null>]
+[INFO ] 2018-04-29 15:59:07.421 com.telrock.dao.PersonServiceImpl.save(PersonServiceImpl.java:33) - Saving Person[id=<null>,name=<null>,surname=<null>,department=<null>]
+[ERROR] 2018-04-29 15:59:07.423 com.telrock.dao.PersonServiceImpl.save(PersonServiceImpl.java:38) - Person must be supplied with valid name and surname. Person[id=<null>,name=<null>,surname=<null>,department=<null>]
+[INFO ] 2018-04-29 15:59:07.443 com.telrock.dao.PersonServiceImpl.save(PersonServiceImpl.java:33) - Saving Person[id=<null>,name=the name,surname=MySurname,department=Department[id=<null>,name=DeptName,area=DeptArea]]
+[DEBUG] 2018-04-29 15:59:07.447 com.telrock.dao.PersonServiceImpl.save(PersonServiceImpl.java:45) - Persisting department for Person[id=<null>,name=the name,surname=MySurname,department=Department[id=<null>,name=DeptName,area=DeptArea]]
+[INFO ] 2018-04-29 15:59:07.449 com.telrock.dao.DepartmentServiceImpl.getOrCreateDepartment(DepartmentServiceImpl.java:35) - Retrieving department DeptName in area DeptArea
+[DEBUG] 2018-04-29 15:59:07.454 com.telrock.dao.DepartmentServiceImpl.getOrCreateDepartment(DepartmentServiceImpl.java:59) - Retrieved Department[id=116,name=DeptName,area=DeptArea]
